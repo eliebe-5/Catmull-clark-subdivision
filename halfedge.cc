@@ -22,9 +22,6 @@ Mesh::~Mesh()
 
 void Mesh::generateHalfEdge(char* path)
 {
-
-    //TODO: Parse .obj for halfedges.
-
     std::ifstream infile(path);
     
     if(!infile.is_open())
