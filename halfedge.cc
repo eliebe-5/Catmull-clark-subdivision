@@ -8,7 +8,6 @@
 #include <sstream>
 #include <fstream>
 #include <stdio.h>
-#include <GL/glut.h>
 #include <pthread.h>
 
 Mesh::Mesh()
